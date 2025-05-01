@@ -14,8 +14,8 @@ faces_embeddings = np.load(r"D:\COLLEGE\Mini Project\Face_Recognise\faces_embedd
 Y = faces_embeddings['arr_1']
 encoder = LabelEncoder()
 encoder.fit(Y)
-haarcascade = cv.CascadeClassifier("D:\COLLEGE\Mini Project\Face_Recognise\haarcascade_frontalface_default.xml")
-model = pickle.load(open("D:\COLLEGE\Mini Project\Face_Recognise\svm_model_160x160.pkl", 'rb'))
+haarcascade = cv.CascadeClassifier("haarcascade_frontalface_default.xml")
+model = pickle.load(open("svm_model_160x160.pkl", 'rb'))
 
 cap = cv.VideoCapture(0)
 # WHILE LOOP
