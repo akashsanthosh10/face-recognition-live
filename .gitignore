@@ -1,0 +1,29 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore test cache
+.pytest_cache/
+
+# Ignore environment variables and secrets
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+faces_embeddings_done_4classes.npz
+haarcascade_frontalface_default.xml
+svm_model_160x160.pkl
